@@ -3,61 +3,42 @@
 {% block content %}
 
 <!-- introducción página -->
-<div class="jumbotron">
-  <h1 class="display-4">Mi web de proyectos</h1>
-  <p class="lead">En esta página iré publicando mis progresos en progamación</p>
-  <hr class="my-4">
-  <p>Iré poniendo enlaces a repositorios y aparte pequeños textos donde se explica el proyecto.</p>
-  <a class="btn btn-outline-dark" href="https://github.com/thv4" role="button">Github</a>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Mi web de proyectos</h1>
+    <p class="lead">En esta página iré publicando mis progresos en progamación poniendo enlaces a repositorios y aparte pequeños textos donde se explica el proyecto.</p>
+  </div>
 </div>
 
 <!-- material que uso -->
 <ul class="list-unstyled">
-  <li class="media">
+  <li class="media ml-2">
     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-filetype-py" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM0 11.85h1.6c.289 0 .533.06.732.179.201.117.355.276.46.477.105.201.158.427.158.677 0 .25-.054.476-.16.677-.106.199-.26.357-.464.474a1.452 1.452 0 0 1-.732.173H.79v1.342H0V11.85Zm2.06 1.714a.795.795 0 0 0 .085-.381c0-.227-.062-.4-.185-.521-.123-.122-.294-.182-.513-.182H.788v1.406h.66a.794.794 0 0 0 .374-.082.574.574 0 0 0 .238-.24Zm2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855l-1.339 2.464Z"/>
     </svg>
-    <div class="media-body">
+    <div class="media-body ml-1">
       <h5 class="mt-0 mb-1">Python</h5>
       Hago uso de la version 3.9 de python, con las librerias necesarias dependiendo de lo que esté haciendo en el momento y siempre intentando probar cosas nuevas para aprender algo mas.
     </div>
   </li>
-  <li class="media my-4">
+  <li class="media my-4 ml-2">
     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
       <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
     </svg>
-    <div class="media-body">
+    <div class="media-body ml-1">
       <h5 class="mt-0 mb-1">Atom</h5>
       Como editor de texto utilizo el que nombro encima, ya que me parece muy chulo a simple vista y es cómodo, aunque he probado otros y en general me da igual cual usar ya que cumplen con su finalidad.
     </div>
   </li>
-  <li class="media">
+  <li class="media ml-2">
     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
       <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
     </svg>
-    <div class="media-body">
+    <div class="media-body ml-1">
       <h5 class="mt-0 mb-1">Redes sociales</h5>
       Aunque por el momento solo tengo código subido a Github pudo plantearme en un futuro subirlo a redes sociales más comunes e incluso hacer vídeos o directos con el fin de que la gente vea mi evolución.
     </div>
   </li>
 </ul>
-
-<!-- proyectos destacados -->
-<div class="card-group">
-  <div class="card text-center text-white bg-dark mb-3">
-    <div class="card-body">
-      <h5 class="card-title">Adivina el número</h5>
-      <p class="card-text">Un juego sencillo con cinco intentos y con alguna funcionalidad extra.</p>
-      <a href="https://github.com/thv4/adivina-el-numero" class="btn btn-outline-light">Repositorio</a>
-    </div>
-  </div>
-  <div class="card text-center text-white bg-dark mb-3">
-    <div class="card-body">
-      <h5 class="card-title">Cifrado César</h5>
-      <p class="card-text">El comienzo de la historia de la criptografía hasto hoy en dia.</p>
-      <a href="https://github.com/thv4/cifrado-cesar" class="btn btn-outline-light">Repositorio</a>
-    </div>
-  </div>
-</div>
 
 {% endblock %}

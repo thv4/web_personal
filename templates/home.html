@@ -4,10 +4,29 @@
 
 <!-- introducción página -->
 <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Mi web de proyectos</h1>
-    <p class="lead">En esta página iré publicando mis progresos en progamación poniendo enlaces a repositorios y aparte pequeños textos donde se explica el proyecto.</p>
-  </div>
+  <section id="header">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="header-content-left">
+            <img src="static/images/python.png" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="header-content-right">
+            <h1 class="display-4">Mi web de proyectos</h1>
+            <p class="mt-5">Una página web en donde subiré los programas que vaya haciendo con el fin de ver mi progreso en el ámbito de la programación porque es lo que me gusta. Si lo que buscais es ver a alguien con altos conociemientos no sigas viendo la página XD.</p>
+            <a href="https://github.com/thv4" class="btn btn-outline-secondary header-btn btn-lg mt-2">Perfil Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- h2 -->
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h2 class="display-4 fw-normal">Herramientas</h2>
 </div>
 
 <!-- material que uso -->
@@ -40,5 +59,28 @@
     </div>
   </li>
 </ul>
+
+<!-- h2 -->
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h2 class="display-4 fw-normal">Proyectos destacados</h2>
+</div>
+
+<!-- proyectos destacados -->
+<div class="card-group">
+  <div class="card text-center text-white bg-dark mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Adivina el número</h5>
+      <p class="card-text">Un juego sencillo con cinco intentos y con alguna funcionalidad extra.</p>
+      <a href="https://github.com/thv4/adivina-el-numero" class="btn btn-outline-light">Repositorio</a>
+    </div>
+  </div>
+  <div class="card text-center text-white bg-dark mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Cifrado César</h5>
+      <p class="card-text">El comienzo de la historia de la criptografía hasto hoy en dia.</p>
+      <a href="https://github.com/thv4/cifrado-cesar" class="btn btn-outline-light">Repositorio</a>
+    </div>
+  </div>
+</div>
 
 {% endblock %}
